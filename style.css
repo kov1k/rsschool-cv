@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     padding: 2rem;
-    background-color: #e6e2d4;
+    background-color: #ebebeb;
 
 }
 .cv{
@@ -32,14 +32,14 @@ body{
 }
 .about-me{
     padding: 1rem;
-    width: 29%;
-    color: #4d4d4d;
-    background-color: white;
+    width: 75%;
+    
 }
 .photo{
     width: 75%;
     margin: 0;
 }
+
 .photo img{
     width: 225px;
     height: 225px;
@@ -47,8 +47,8 @@ body{
     -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
     box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
 }
-.my-contacts{
-    font-size: 24px;
+.my-contacts, .my-skills, .my-lang{
+    font-size: 22px;
     text-transform:uppercase;
 }
 .underlined{
@@ -57,6 +57,10 @@ body{
     margin-top: 0.5em;
     margin-bottom:1em;
     background-color: white;
+}
+.skills-list-p-ing, .lang-list-p-ing{
+   padding: 0.4em 0.4em 0.4em 0em;
+   font-size: 18px;
 }
 ul {
     display: block;
