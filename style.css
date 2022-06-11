@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    padding: 2rem;
+    background-color: #e6e2d4;
+
+}
+.cv{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+   /* -webkit-box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.49);
+    box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.49); Тень на СВ*/
+}
+.about{
+    padding: 1em 1.7em;
+    width: 29%;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    background-color: #4d4d4d;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.about-me{
+    padding: 1rem;
+    width: 29%;
+    color: #4d4d4d;
+    background-color: white;
+}
+.photo{
+    width: 75%;
+    margin: 0;
+}
+.photo img{
+    width: 225px;
+    height: 225px;
+    -webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+    box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+}
+.my-contacts{
+    font-size: 24px;
+    text-transform:uppercase;
+}
+.underlined{
+    width: 100%;
+    height: 0.05rem;
+    margin-top: 0.5em;
+    margin-bottom:1em;
+    background-color: white;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul.discord, ul.mail, ul.telegram{
+    list-style-type: none;
+    padding: 0px;
+    
+}
+.discord, .mail, .telegram{
+    display: flex;
+    margin-bottom:1rem;
+}
+.discord-icon{
+    margin-right: 0.5em;
+    
+}
+.telegram-icon, .mail-icon{
+    margin-right: 0.8em; 
+}
+.discord-tag, .mail-tag, .telegram-tag{
+    font-size: 16px;
+}
