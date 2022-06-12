@@ -156,6 +156,10 @@ h1{
     font-weight: bold;
     font-size: 17px;
 }
-.experience-describe{
+.experience-describe, .code{
     border-top: solid grey 1px;
+}
+.code{
+    padding: 16px;
+    display: flex;
 }
