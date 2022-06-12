@@ -124,12 +124,16 @@ h1{
 .h4{
     margin-top:0px;
 }
-.footer__nav__list {
+.footer-nav-list {
     margin-top: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 0px;
+  }
+  .footer-nav-list li{
+    list-style-type: none;
   }
 .text-info-about-me{
     font-weight: 500;
@@ -162,4 +166,17 @@ h1{
 .code{
     padding: 16px;
     display: flex;
+}
+a, .git-link-text{
+    text-decoration: none;
+    color: black;
+}
+a.git-icon:hover{
+    color:#4d4d4d;
+}
+a.git-icon:active{
+    color:#3b3b3b;
+}
+.git-link-text{
+    position: relative;
 }
