@@ -25,6 +25,10 @@ body{
 .header{
     margin-bottom:20px;
 }
+.cosmo-heading{
+    position: absolute;
+    margin-top: -9999999px;
+}
 .about{
     padding: 1em ;
     width: 35%;
