@@ -47,9 +47,8 @@ body{
     background-color: white;
 }
 .photo{
-    width: 76%;
+    width: 75%;
     padding-left: 0%;
-    border: 2px solid white;
 }
 .empty-about{
     margin: 50px 0 0;
@@ -69,7 +68,7 @@ body{
     -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
     box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
 }
-.my-contacts, .my-skills, .my-lang{
+.my-contacts, .my-skills, .my-lang, .my-projects{
     font-size: 22px;
     text-transform:uppercase;
 }
@@ -87,10 +86,14 @@ body{
     margin-bottom:3em;
     background-color: grey;
 }
-.skills-list-p-ing, .lang-list-p-ing{
+.skills-list-p-ing, .lang-list-p-ing, .projects-list-p-ing{
    padding: 0.4em 0.4em 0.4em 0em;
    font-size: 18px;
 }
+.projects-list-p-ing a{
+    color: white;
+}
+
 ul {
     display: block;
     list-style-type: disc;
@@ -100,6 +103,7 @@ ul {
 li{
     display: list-item;
     text-align: -webkit-match-parent;
+    
 }
 ul.discord, ul.mail, ul.telegram{
     list-style-type: none;
