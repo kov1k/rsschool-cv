@@ -45,10 +45,10 @@
                 <h3 class="my-skills">skills</h3>
                 <div class="underlined"></div>
                 <ul class="skills-list">
-                    <li class="skills-list-p-ing">HTML5</li>
-                    <li class="skills-list-p-ing">CSS3</li>
-                    <li class="skills-list-p-ing">Git</li>
-                    <li class="skills-list-p-ing">JS Basic</li>
+                    <li class="skills-list-p-ing"><i class="fa-brands fa-html5"></i> HTML5</li>
+                    <li class="skills-list-p-ing"><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                    <li class="skills-list-p-ing"><i class="fa-brands fa-square-git"></i> Git</li>
+                    <li class="skills-list-p-ing"><i class="fa-brands fa-js"></i> JavaScript</li>
                 </ul>
             </article>
             <article class="language">
@@ -63,7 +63,8 @@
                 <h3 class="my-projects">work examples</h3>
                 <div class="underlined"></div>
                 <ul class="projects-list">
-                    <li class="projects-list-p-ing"><a href="https://kov1k.github.io/rsschool-cv/" target="_blank">My CV</a></li>
+                    <li class="projects-list-p-ing"><a href="https://kov1k.github.io/rsschool-cv/" target="_blank" class="project_link">My CV</a></li>
+                    <li class="projects-list-p-ing"><a href="https://rolling-scopes-school.github.io/kov1k-JSFEPRESCHOOL2022Q2/travel/" target="_blank" class="project_link">Travel</a></li>
                 </ul>
 
             </article>
@@ -135,9 +136,11 @@
                 <h2>Code example</h2>
                 <div class="code">
                     <code data-language="javascript">
-                            function multiply(a, b){<br>
-                                return a * b;<br>
-                            }
+                        module.exports = function reverse (n) {<br>
+                            n = n + ''<br>
+                            n = n.replace(/[^0-9]/g, '')<br>
+                            return n.split('').reverse().join('')<br>
+                        }
                     </code>
                 </div>
             </article>

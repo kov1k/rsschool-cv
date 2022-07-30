@@ -54,7 +54,7 @@ body{
     margin: 50px 0 0;
 }
 .rss-icon{
-    
+    transition: 0.5s;
     width: 100%;
     background-image: url(assets/icons/rs_school_js.svg);   
     background-repeat: no-repeat;
@@ -86,14 +86,22 @@ body{
     margin-bottom:3em;
     background-color: grey;
 }
+.skills-list{
+    padding: 0;
+}
 .skills-list-p-ing, .lang-list-p-ing, .projects-list-p-ing{
    padding: 0.4em 0.4em 0.4em 0em;
    font-size: 18px;
 }
+.skills-list-p-ing i::before{
+    padding-right: 0.5em;
+}   
 .projects-list-p-ing a{
     color: white;
 }
-
+.project_link:hover{
+    color: rgb(182, 182, 182);
+}
 ul {
     display: block;
     list-style-type: disc;
@@ -103,7 +111,9 @@ ul {
 li{
     display: list-item;
     text-align: -webkit-match-parent;
-    
+}
+.skills-list-p-ing {
+    list-style-type: none;
 }
 ul.discord, ul.mail, ul.telegram{
     list-style-type: none;
@@ -113,6 +123,7 @@ ul.discord, ul.mail, ul.telegram{
 .discord, .mail, .telegram{
     display: flex;
     margin-bottom:1rem;
+    flex-wrap: wrap;
 }
 .discord-icon{
     margin-right: 0.5em;
@@ -133,7 +144,7 @@ h1{
     margin-top:0px;
 }
 .footer-nav-list {
-    margin-top: 8rem;
+    margin-top: 29%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -187,4 +198,8 @@ a.git-icon:active{
 }
 .git-link-text{
     position: relative;
+}
+.rss-icon:hover{
+    transition: 0.5s;
+    filter: invert(0.9);
 }
