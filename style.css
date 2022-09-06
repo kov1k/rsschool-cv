@@ -1,3 +1,207 @@
 *{
     box-sizing: border-box;
 }
+html{
+    line-height: 1.15;
+}
+body{
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    padding: 2rem;
+    background-color: #ebebeb;
+    letter-spacing: 1.3px;
+}
+.cv{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    display: flex;
+    margin: auto;
+   -webkit-box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.49);
+    box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.49); 
+}
+.header{
+    margin-bottom:20px;
+}
+.cosmo-heading{
+    position: absolute;
+    margin-top: -9999999px;
+}
+.about{
+    padding: 1em ;
+    width: 35%;
+    margin:0px ;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    background-color: #4d4d4d;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 75%;
+    color: #4d4d4d; 
+    background-color: white;
+}
+.photo{
+    width: 75%;
+    padding-left: 0%;
+}
+.empty-about{
+    margin: 50px 0 0;
+}
+.rss-icon{
+    transition: 0.5s;
+    width: 100%;
+    background-image: url(assets/icons/rs_school_js.svg);   
+    background-repeat: no-repeat;
+    height: 65px;
+    background-position:center;
+}
+.photo img{
+    width: 225px;
+    height: 225px;
+    -webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+    box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+}
+.my-contacts, .my-skills, .my-lang, .my-projects{
+    font-size: 22px;
+    text-transform:uppercase;
+}
+.underlined{
+    width: 100%;
+    height: 0.05rem;
+    margin-top: 0.5em;
+    margin-bottom:1em;
+    background-color: white;
+}
+.underlined-grey{
+    width: 100%;
+    height: 0.05rem;
+    margin-top: 0.5em;
+    margin-bottom:3em;
+    background-color: grey;
+}
+.skills-list{
+    padding: 0;
+}
+.skills-list-p-ing, .lang-list-p-ing, .projects-list-p-ing{
+   padding: 0.4em 0.4em 0.4em 0em;
+   font-size: 18px;
+}
+.skills-list-p-ing i::before{
+    padding-right: 0.5em;
+}   
+.projects-list-p-ing a{
+    color: white;
+}
+.project_link:hover{
+    color: rgb(182, 182, 182);
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.skills-list-p-ing {
+    list-style-type: none;
+}
+ul.discord, ul.mail, ul.telegram{
+    list-style-type: none;
+    padding: 0px;
+    
+}
+.discord, .mail, .telegram{
+    display: flex;
+    margin-bottom:1rem;
+    flex-wrap: wrap;
+}
+.discord-icon{
+    margin-right: 0.5em;
+    
+}
+.telegram-icon, .mail-icon{
+    margin-right: 0.8em; 
+}
+.discord-tag, .mail-tag, .telegram-tag{
+    font-size: 18px;
+}
+h1{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+.h4{
+    margin-top:0px;
+}
+.footer-nav-list {
+    margin-top: 29%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+  }
+  .footer-nav-list li{
+    list-style-type: none;
+  }
+.text-info-about-me{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 140%;
+    border-top: 1px solid gray;
+    padding: 16px;
+}
+.edu-description1{
+    width: 35%;
+}
+.edu-description2{
+    width: 60%;
+    padding-left: 10px;
+}
+.description{
+    padding: 16px;
+    display: flex;
+    font-size: 17px;
+    line-height: 1.5em;
+    border-top: solid grey 1px;
+}
+.strong{
+    font-weight: bold;
+    font-size: 17px;
+}
+.experience-describe, .code{
+    border-top: solid grey 1px;
+}
+.code{
+    padding: 16px;
+    display: flex;
+}
+a, .git-link-text{
+    text-decoration: none;
+    color: black;
+}
+a.git-icon:hover{
+    color:#4d4d4d;
+}
+a.git-icon:active{
+    color:#3b3b3b;
+}
+.git-link-text{
+    position: relative;
+}
+.rss-icon:hover{
+    transition: 0.5s;
+    filter: invert(0.9);
+}
