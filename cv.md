@@ -14,7 +14,7 @@ Some information...
 * CSS3
 * Git
 ## Education
-__06/24 - ??/22__
+__06/24 - ??/??__
 ***Rolling Scopes School***
 __Course:__ "JS Front-end development"
 ## Code example
